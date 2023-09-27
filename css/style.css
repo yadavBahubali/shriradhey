@@ -675,6 +675,21 @@ li {
   margin: auto;
 }
 
+/* shop name background image */
+.bg-shop {
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('../images/shop.png');  
+}
+.text-flex{
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+}
 
 /* sample test
  */
@@ -708,7 +723,7 @@ section-s {
 .overlay img {
   max-width: 100%;
   height: auto;
-  animation: imageAnimate 2s ease-in ;
+  animation: imageAnimate 2s ease-in;
 }
 
 @keyframes imageAnimate {
@@ -719,15 +734,15 @@ section-s {
   100% {
     transform: scale(1.1);
   }
-/* 
+
+  /* 
   100% {
     transform: scale(1);
   } */
 }
 
 .smokeh1 {
-  /* text-align: center; */
-  text-transform: uppercase;
+    text-transform: uppercase;
   color: #f5f5f5;
   font-size: 3em;
   font-family: sans-serif;
